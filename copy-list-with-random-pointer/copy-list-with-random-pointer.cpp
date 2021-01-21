@@ -1,45 +1,34 @@
-/*
-// Definition for a Node.
-class Node
-{
-public:
-    int val;
-    Node *next;
-    Node *random;
+            Node *copy = new Node(curr->val);
+            curr->next = copy;
+            copy->next = next;
 ​
-    Node(int _val)
-    {
-        val = _val;
-        next = NULL;
-        random = NULL;
-    }
-};
-*/
-​
-class Solution
-{
-public:
-    Node *copyRandomList(Node *head)
-    {
-​
-        if (head == NULL)
-            return NULL;
-​
-        unordered_map<Node *, Node *> hash;
-        Node *curr = head;
-        while (curr != NULL)
-        {
-            hash[curr] = new Node(curr->val);
-            curr = curr->next;
+            curr = next;
         }
         curr = head;
-        while (curr != NULL)
+        while (curr)
         {
-            hash[curr]->next = hash[curr->next];
-            hash[curr]->random = hash[curr->random];
-            curr = curr->next;
+            if (curr->random)
+            {
+                curr->next->random = curr->random->next;
+            }
+            curr = curr->next->next;
         }
+        curr = head;
+        Node *dummyhead = new Node(0);
+        Node *clonetail = dummyhead;
+        Node *copy = NULL;
+        while (curr)
+        {
+            next = curr->next->next;
+            copy = curr->next;
 ​
-        return hash[head];
+            clonetail->next = copy;
+            clonetail = copy;
+​
+            curr->next = next;
+​
+            curr = next;
+        }
+        return dummyhead->next;
     }
 };
