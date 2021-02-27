@@ -1,10 +1,7 @@
-[![Made with C++](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://github.com/revaan-mishra/LeetCode-Solutions) 
 # [LeetCode](https://leetcode.com/) solutions
 * [My leetcode profile](https://leetcode.com/revaan_mishra/)
 
-<img src="https://sloc.xyz/github/codedecks-in/LeetCode-Solutions" alt="LOC"/> <a href="https://github.com/codedecks-in/LeetCode-Solutions/stargazers"><img src="https://img.shields.io/github/stars/codedecks-in/LeetCode-Solutions" alt="Stars Badge"/></a>
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)&nbsp;
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+[![Made with C++](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://github.com/revaan-mishra/LeetCode-Solutions) 
 
 ## General Information
 
