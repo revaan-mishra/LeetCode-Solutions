@@ -15,7 +15,7 @@ public:
             return false;
         };
 
-        int rotten = 2, fresh = 1, empty = 0;
+        int rotten = 2, fresh = 1;
         int freshCount {0};
         int rottenCount {0};
 
