@@ -2,7 +2,7 @@
 
 # [LeetCode](https://leetcode.com/) solutions
 * [My leetcode profile](https://leetcode.com/revaan_mishra/)
-#(Discontinued for the time being)
+# (Discontinued for the time being)
 ## General Information
 
 The repository contains solutions to various [problems](https://leetcode.com/problemset/all/) on leetcode.
