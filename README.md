@@ -1,8 +1,7 @@
 [![Made with C++](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://github.com/revaan-mishra/LeetCode-Solutions) 
 
 # [LeetCode](https://leetcode.com/) solutions
-* [My leetcode profile](https://leetcode.com/revaan_mishra/)
-# (Discontinued for the time being)
+* [My leetcode profile](https://leetcode.com/revaan/)
 ## General Information
 
 The repository contains solutions to various [problems](https://leetcode.com/problemset/all/) on leetcode.
